@@ -68,17 +68,18 @@ cd map-app
 
 **Пример ответа API:**
 
-JSON
-
+```json
 [
   {
-    "place_id": 123456,
-    "lat": "42.8746",
-    "lon": "74.5698",
-    "display_name": "Бишкек, Кыргызстан",
+    "place_id": 298436467,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. [http://osm.org/copyright](http://osm.org/copyright)",
+    "lat": "42.8765615",
+    "lon": "74.5884393",
+    "display_name": "Бишкек, Ленинский район, Бишкек, 720000, Кыргызстан",
     "class": "place",
     "type": "city",
-    "importance": 0.78
+    "importance": 0.6865261628170066,
+    "icon": "[https://nominatim.openstreetmap.org/ui/mapicons/poi_place_city.p.20.png](https://nominatim.openstreetmap.org/ui/mapicons/poi_place_city.p.20.png)"
   }
 ]
 ## 📂 Структура проекта
